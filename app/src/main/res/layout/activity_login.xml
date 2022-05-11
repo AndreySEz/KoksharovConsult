@@ -70,7 +70,7 @@
         android:text="Password"
         android:textSize="15dp"
         tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="398dp" />
+        tools:layout_editor_absoluteY="398dp"/>
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -79,7 +79,7 @@
         android:ems="10"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="418dp" />
+        tools:layout_editor_absoluteY="418dp"/>
 
     <TextView
         android:id="@+id/textView3"
