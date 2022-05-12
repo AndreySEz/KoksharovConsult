@@ -1,5 +1,6 @@
 package com.example.koksharovconsult
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
@@ -10,6 +11,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickStart(view: android.view.View) {
-
+        val intent= Intent(this, LoginActivity::class.java)
+        startActivity(intent)
     }
 }

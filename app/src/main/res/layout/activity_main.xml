@@ -47,9 +47,11 @@
         android:id="@+id/imageView9"
         android:layout_width="282dp"
         android:layout_height="242dp"
-        app:srcCompat="@mipmap/girllight_foreground"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="473dp" />
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
+        app:srcCompat="@mipmap/girllight_foreground" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -66,9 +68,11 @@
         android:id="@+id/imageView8"
         android:layout_width="571dp"
         android:layout_height="341dp"
-        app:srcCompat="@mipmap/boylight_foreground"
-        tools:layout_editor_absoluteX="-193dp"
-        tools:layout_editor_absoluteY="473dp" />
+        android:layout_marginStart="-180dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:srcCompat="@mipmap/boylight_foreground" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
